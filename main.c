@@ -24,6 +24,24 @@ int main()
                 gotoxy(30,12);
                 color(0);
                 break;
+            case 59:
+                color(9);
+                break;
+            case 60:
+                color(10);
+                break;
+            case 61:
+                color(11);
+                break;
+            case 62:
+                color(12);
+                break;
+            case 63:
+                color(13);
+                break;
+            case 64:
+                color(14);
+                break;
             case 72:
                 y=(y>0)?y-1:0;
                 gotoxy(x,y);
