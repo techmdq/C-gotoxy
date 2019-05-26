@@ -11,7 +11,6 @@ int main()
     int y=0;
 
     hidecursor(0);
-    color(30);
     gotoxy(x,y);
     printf("%c",219);
 
